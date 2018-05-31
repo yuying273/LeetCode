@@ -21,7 +21,7 @@ class Solution(object):
         w2 = []
         for i in range(len(words)):
           if words[i]==word1: w1.append[i]
-             elseif words[i]==word2: w2.append[i]
+             elif words[i]==word2: w2.append[i]
           #w1 = [i for i in xrange(len(words)) if words[i] == word1]
           #w2 = [i for i in xrange(len(words)) if words[i] == word2]
         return(min([abs(i-j) for i in w1 for j in w2])
